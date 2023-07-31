@@ -5,6 +5,7 @@ import ME from '../../assets/me.png'
 import HeaderSocial from './headersocials'
 const header = () => {
   return (
+    <section id='home'>
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
@@ -19,6 +20,7 @@ const header = () => {
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
     </header>
+    </section>
   )
 }
 
